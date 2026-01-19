@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Quick Chat",
+    "slug": "quick-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2D9CDB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamesmwangicreator.quickchat"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2D9CDB"
+      },
+      "package": "com.jamesmwangicreator.quickchat"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
